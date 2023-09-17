@@ -1,0 +1,52 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header div h1 span {
+  color: orange;
+}
+
+header ul {
+  display: none;
+  align-items: center;
+  justify-content: start;
+  padding: 0;
+  gap: 10px;
+}
+header ul li {
+  list-style: none;
+}
+
+header section i {
+  background-color: rgb(238, 238, 238);
+  padding: 17px 12px;
+  color: rgb(17, 15, 65);
+}
+header section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+/* Extra small devices (phones, 640px and down) */
+@media only screen and (max-width: 640px) {
+}
+/* Small devices (portrait tablets and large phones, 640px and up) */
+@media only screen and (min-width: 640px) {
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  header ul {
+    display: flex;
+  }
+}
+/* Large devices (laptops/desktops, 1024px and up) */
+@media only screen and (min-width: 1024px) {
+}
+/* Extra large devices (large laptops and desktops, 1280px and up) */
+@media only screen and (min-width: 1280px) {
+}
