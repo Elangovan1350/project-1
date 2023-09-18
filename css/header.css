@@ -8,6 +8,13 @@ header div h1 span {
   color: orange;
 }
 
+header div h1 span i {
+  color: orange;
+}
+
+header div h1{
+  color: blue;
+}
 header ul {
   display: none;
   align-items: center;
