@@ -40,6 +40,7 @@
 * {
   font-family: roboto;
   color: rgb(17, 15, 65);
+ user-select: none;
  
 }
 body{
@@ -59,6 +60,13 @@ button {
   border-radius: 5px;
   text-transform: capitalize;
   font-size: 16px;
+  transition: all 0.1s ease-in-out;
+}
+button:hover{
+  background-color: orange;
+  color: white;
+  font-weight: 700;
+  transform: scale(1.05);
 }
 div.mainbody{
   background-color: rgb(238, 238, 238);

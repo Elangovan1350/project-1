@@ -49,6 +49,9 @@ header section {
 
 /* Extra small devices (phones, 640px and down) */
 @media only screen and (max-width: 640px) {
+  header section i {
+    padding: 15px 12px;
+  }
 }
 /* Small devices (portrait tablets and large phones, 640px and up) */
 @media only screen and (min-width: 640px) {
