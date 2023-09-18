@@ -70,6 +70,7 @@ button:hover{
 }
 div.mainbody{
   background-color: rgb(238, 238, 238);
+  padding-bottom: 20px;
 }
 
 div.features h1 span{
