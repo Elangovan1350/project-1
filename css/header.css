@@ -12,7 +12,7 @@ header div h1 span i {
   color: orange;
 }
 
-header div h1{
+header div h1 {
   color: blue;
 }
 header ul {
@@ -24,12 +24,20 @@ header ul {
 }
 header ul li {
   list-style: none;
+  transition: all 0.1s ease-in-out;
+}
+header ul li:hover {
+  color: orange;
 }
 
 header section i {
   background-color: rgb(238, 238, 238);
-  padding: 17px 12px;
+  padding: 20px 17px;
   color: rgb(17, 15, 65);
+  transition: all 0.1s ease-in-out;
+}
+header section i:hover {
+  background-color: orange;
 }
 header section {
   display: flex;
